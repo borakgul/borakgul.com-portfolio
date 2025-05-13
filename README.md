@@ -74,13 +74,13 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 Here are a few previews of the portfolio website:
 
-### 🖥️ Desktop View
+### 🖥️ Desktop Top View
 <img src="/public/For_github/start.png" alt="Desktop Screenshot" width="100%" />
 
-### 📱 Mobile View
+### 📱 Desktop Middle View
 <img src="/public/For_github/middle.png" alt="Mobile Screenshot" width="100%" />
 
-### 🖥️ Desktop View
+### 🖥️ Desktop Footer and Contact View
 <img src="/public/For_github/Contact.png" alt="Desktop Screenshot" width="100%" />
 
 ## License
