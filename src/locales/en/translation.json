@@ -1,0 +1,393 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "work": "Work",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "contact": {
+        "title": "Contact me for collaboration",
+        "description": "Reach out today to discuss your project needs and start collaborating on something amazing!",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Submit"
+    },
+    "footer": {
+        "headline": "Let's work together today!",
+        "button": "Start project",
+        "sitemap": "Sitemap",
+        "socials": "Socials"
+    },
+    "header": {
+        "contact": "Contact Me"
+    },
+    "hero": {
+        "status": "Available for work",
+        "headline_1": "More Than a Specialist,",
+        "headline_2": "Less Than a Generalist",
+        "headline_3": "—",
+        "headline_4": "Just Aligned with Change.",
+        "download_cv": "Download CV",
+        "scroll": "Scroll down"
+    },
+    "review": {
+        "title": "My Experience",
+        "items": [
+            {
+                "name": "Huawei",
+                "company": "Product Manager, 2024 - Present",
+                "content": "As a Product Manager at Huawei, I contributed to DWDM system development, aligned features with client needs, and gained experience with Kubernetes and Docker on Huawei Cloud.",
+                "imgSrc": "/images/huawei_icon.png"
+            },
+            {
+                "name": "Graduation Project",
+                "company": "Control & Automation Eng., 2023",
+                "content": "Graduated in Control and Automation Engineering with a thesis on designing a compact autonomous security robot using image processing and PID control on a Linux-based system.",
+                "imgSrc": "/images/yildiz_technical_logo.png"
+            },
+            {
+                "name": "Solvia Digital Solutions",
+                "company": "MII Consultant Intern, 2023",
+                "content": "Enhanced manufacturing data insights by visualizing SCADA streams with Tableau and integrating real-time MES data into SAP MII using Apache Spark and custom SAPUI5 components.",
+                "imgSrc": "/images/solvia_logo.png"
+            },
+            {
+                "name": "Schnee-Gruppe",
+                "company": "Automation Intern, 2021",
+                "content": "Implemented Siemens S7-1200 PLCs and customized SCADA/HMI systems in collaboration with the German team to enhance real-time control and diagnostics.",
+                "imgSrc": "/images/schnee_logo.png"
+            }
+        ]
+    },
+    "work": {
+        "title": "My Portfolio Highlights",
+        "button": "View All Project and Descriptions →",
+        "projects": [
+            {
+                "title": "MERN eCommerce w/ K8S",
+                "tags": [
+                    "MERN",
+                    "JWT",
+                    "Kubernetes"
+                ]
+            },
+            {
+                "title": "Parking Management System",
+                "tags": [
+                    ".NET",
+                    "SQL Server",
+                    "WPF"
+                ]
+            },
+            {
+                "title": "Backend API w/ JWT & RBAC",
+                "tags": [
+                    "Node.js",
+                    "MongoDB",
+                    "RBAC"
+                ]
+            },
+            {
+                "title": "House Price Prediction (Top 50)",
+                "tags": [
+                    "ML",
+                    "Stacking",
+                    "Kaggle"
+                ]
+            },
+            {
+                "title": "Movie Recommendation System",
+                "tags": [
+                    "ML",
+                    "TensorFlow",
+                    "Collaborative"
+                ]
+            },
+            {
+                "title": "Security Robot",
+                "tags": [
+                    "AI",
+                    "Face Recognition",
+                    "Embedded"
+                ]
+            }
+        ]
+    },
+    "about": {
+        "short": "Hi! I'm Bora — a developer who enjoys working with data and solving real problems through Full Stack and MLOps projects. I’m curious about emerging technologies and currently building at Huawei.",
+        "long": "Welcome! I'm Bora, a Control and Automation Engineering graduate, currently working at Huawei. With a strong passion for software development and cloud technologies, I focus on building robust, scalable systems that combine both creativity and technical precision.\n\nMy interests lie particularly in Artificial Intelligence, including Agent-based systems, Retrieval-Augmented Generation (RAG), and Machine Learning. I enjoy creating intuitive front-end experiences and high-performance back-end architectures using technologies such as the MERN stack and .NET Core.\n\nI also work extensively with containerization and orchestration tools like Docker and Kubernetes to ensure efficient and modern deployment strategies. My goal is to deliver innovative, user-centric solutions that bridge the gap between functionality and visual excellence.",
+        "items": [
+            {
+                "label": "Projects completed",
+                "number": 20
+            },
+            {
+                "label": "Years of experience",
+                "number": 2
+            }
+        ]
+    },
+    "projects": {
+        "title": "Projelerim",
+        "viewOnGitHub": "GitHub'da Görüntüle",
+        "items": [
+            {
+                "title": "Güvenlik Robotu",
+                "summary": "Yapay zekâ destekli, görüntüye dayalı anomali tespiti yapan gözetleme robotu.",
+                "description": "Kapalı alanlarda gözetim ve anomali tespiti için tasarlanmış otonom bir güvenlik robotudur. Robot, LIDAR destekli SLAM haritalama ve PID tabanlı hareket denetleyici ile düzgün gezinme sağlar. Ortam aktiviteleri hareket sensörleriyle algılanırken, kamera OpenCV destekli yüz tanıma algoritmaları ile yorgunluk veya izinsiz girişleri tespit eder. Bu proje robotik, gömülü kontrol sistemleri ve ileri görüntü işleme tekniklerini birleştirir.",
+                "tech": [
+                    "Python",
+                    "OpenCV",
+                    "LIDAR",
+                    "PID Kontrol",
+                    "Yüz Tanıma",
+                    "Sensör Füzyonu",
+                    "Gömülü Sistemler",
+                    "Raspberry Pi",
+                    "Arduino"
+                ]
+            },
+            {
+                "title": "Yüz Tanıma ile Anomali Tespiti",
+                "summary": "Yüz işaret noktaları ile gerçek zamanlı uyuklama tespiti ve sesli uyarı sistemi",
+                "description": "Gerçek zamanlı yüz ve göz takibi ile sürücü yorgunluğunu önlemeye odaklanan bir bitirme projesi. Python, OpenCV ve Dlib kullanılarak geliştirilen sistem, Eye Aspect Ratio (EAR) eşiklerine dayalı uyku belirtilerini analiz eder. Anormal davranış algılandığında Arduino aracılığıyla sesli uyarı verir. Sistem, dinamik yüz hizalaması için pan-tilt servolu kamera içerir ve gerçek sürüş koşullarında çalışacak şekilde tasarlanmıştır.",
+                "tech": [
+                    "Python",
+                    "OpenCV",
+                    "Dlib",
+                    "face_recognition",
+                    "Arduino UNO",
+                    "Pan-Tilt Servo",
+                    "Haar Cascade",
+                    "EAR Hesaplama"
+                ]
+            },
+            {
+                "title": "Otopark Yönetim Sistemi",
+                "summary": "Akıllı Otopark / .NET",
+                "description": "Bu WPF tabanlı .NET Core masaüstü uygulaması, sınırlı otopark alanlarını verimli şekilde yönetmek için tasarlanmıştır. Araçlar, uygunluk ve boyuta göre Lot A, B veya C'ye dinamik olarak atanır. Veri işlemleri için Entity Framework Core kullanılır ve MVC mimarisi takip edilmiştir. Kullanıcı dostu Razor arayüzüyle anlık otopark durumu görüntülenebilir. SQL Server entegrasyonu mevcuttur ve xUnit ile test desteği sunar.",
+                "tech": [
+                    "C#",
+                    ".NET",
+                    "SQL Server"
+                ]
+            },
+            {
+                "title": "JWT ve RBAC Destekli Backend API",
+                "summary": "Backend API / JWT",
+                "description": "Node.js, Express ve MongoDB ile geliştirilen modüler ve ölçeklenebilir e-ticaret backend API'sidir. JWT tabanlı kimlik doğrulama, rol tabanlı erişim kontrolü (RBAC) ve SSE ile gerçek zamanlı güncellemeler sunar. Temiz mimari prensiplerine uygun, Docker destekli ve üretim ortamına hazır yapıdadır.",
+                "tech": [
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "Mongoose",
+                    "JWT",
+                    "RBAC",
+                    "Docker",
+                    "SSE",
+                    "dotenv"
+                ]
+            },
+            {
+                "title": "Uçuş Simülasyonu",
+                "summary": "MVVM, TCP/UDP Mesajlaşma ve xUnit Testli Otonom Simülasyon",
+                "description": "MVVM desenine uygun şekilde geliştirilen C# tabanlı bir uçuş simülasyon sistemidir. Her 0.02 saniyede bir hız, irtifa, yönelim (pitch, roll, yaw), basınç, sıcaklık ve GPS gibi verileri TCP ve UDP üzerinden iletir. CRC8 ile veri bütünlüğü sağlanır. PID kontrol algoritması sayesinde otonom davranış simüle edilir. Tüm simülasyon verileri lokal olarak kaydedilir ve sistem xUnit ile test edilmiştir.",
+                "tech": [
+                    "C#",
+                    "WPF",
+                    "MVVM",
+                    "Entity Framework Core",
+                    "TCP",
+                    "UDP",
+                    "CRC8 Hash",
+                    "xUnit",
+                    "PID Kontrol",
+                    "LINQ",
+                    "Async Programlama"
+                ]
+            },
+            {
+                "title": "MERN Stack e-Ticaret (Kubernetes ile)",
+                "summary": "JWT Kimlik Doğrulama, Redux ve Mikroservis destekli tam kapsamlı e-Ticaret platformu",
+                "description": "MERN stack ve Redux Toolkit kullanılarak geliştirilen, üretime hazır bir e-Ticaret web uygulamasıdır. Ödeme sistemleri, kullanıcı/admine özel yetkilendirme, ürün listeleme, sipariş takibi ve yönetim panelleri içerir. JWT ile kimlik doğrulama, MongoDB veri tohumlama ve duyarlı arayüz barındırır. Sistem, Docker ile konteynerleştirilmiş ve Kubernetes (Minikube) ile orkestrasyon yapılmıştır.",
+                "tech": [
+                    "MongoDB",
+                    "Express.js",
+                    "React.js",
+                    "Node.js",
+                    "Redux Toolkit",
+                    "JWT",
+                    "Docker",
+                    "Kubernetes",
+                    "Minikube",
+                    "REST API",
+                    "Postman",
+                    "MongoDB Atlas"
+                ]
+            },
+            {
+                "title": "Kaggle Yarışması (İlk 50) – Ev Fiyat Tahmini",
+                "summary": "Gerçek emlak verileriyle makine öğrenimi modelleriyle hassas fiyat tahmini",
+                "description": "Ames, Iowa'dan alınan konut verileriyle geliştirilen bir makine öğrenimi projesidir. Arsa alanı, inşa yılı, yaşam alanı ve garaj kapasitesi gibi 70'ten fazla özelliği analiz ederek ev fiyatlarını tahmin eder. Eksik veri doldurma, tek-seçenekli kodlama, aykırı değer temizleme ve logaritmik hedef dönüşümü gibi ileri ön işlem teknikleri uygulanmıştır. Linear Regression, Random Forest ve Gradient Boosting modellerinin yığınlama yöntemiyle birleştirildiği bir pipeline oluşturulmuştur. Model, %91 R² skoruyla kamu sıralamasında ilk 50'de yer almıştır.",
+                "tech": [
+                    "Python",
+                    "Pandas",
+                    "Scikit-Learn",
+                    "Stacking Regressor",
+                    "Random Forest",
+                    "Linear Regression"
+                ]
+            },
+            {
+                "title": "Film Öneri Sistemi",
+                "summary": "Gerçek kullanıcı puanlarıyla işbirlikçi filtreleme ve matris ayrıştırma",
+                "description": "Gerçek kullanıcı-film puan verisiyle eğitilen, makine öğrenimi tabanlı bir öneri sistemidir. Kullanıcı benzerliğine dayanarak kişiselleştirilmiş film tahminleri sunar. Normalizasyon, öznitelik mühendisliği ve boyut indirgeme içeren bir ön işleme süreci uygulanmıştır. Python, TensorFlow ve Scikit-learn kullanılarak geliştirilmiş ve Jupyter Notebook üzerinde çalıştırılmıştır.",
+                "tech": [
+                    "Python",
+                    "Pandas",
+                    "NumPy",
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Jupyter Notebook",
+                    "İşbirlikçi Filtreleme",
+                    "Matris Ayrıştırma"
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "title": "My Projects",
+        "viewOnGitHub": "View on GitHub",
+        "items": [
+            {
+                "title": "Security Robot",
+                "summary": "AI-powered surveillance robot with smart navigation and vision-based anomaly tracking.",
+                "description": "An autonomous security robot designed for indoor surveillance and anomaly detection. The robot uses a PID-based motion controller for smooth navigation, enhanced by LIDAR-based SLAM mapping. Motion sensors detect environmental activity, while the onboard camera leverages real-time face recognition and computer vision (OpenCV) to detect fatigue or unauthorized presence. This project integrates robotics, embedded control systems, and advanced image processing into a cohesive real-world application.",
+                "tech": [
+                    "Python",
+                    "OpenCV",
+                    "LIDAR",
+                    "PID Controller",
+                    "Face Recognition",
+                    "Sensor Fusion",
+                    "Embedded Systems",
+                    "Raspberry Pi",
+                    "Arduino"
+                ]
+            },
+            {
+                "title": "Anomaly Detection w/ Face Recognition",
+                "summary": "Real-time drowsiness detection using facial landmarks and embedded alert system",
+                "description": "A graduation project focused on preventing driver fatigue through real-time face and eye-tracking. Using Python, OpenCV, and Dlib, the system detects signs of drowsiness based on Eye Aspect Ratio (EAR) thresholds and facial landmarks. If abnormal behavior is detected, it triggers an audible alert via Arduino. The system includes servo-controlled camera tracking for dynamic face alignment and is designed to work in real driving conditions.",
+                "tech": [
+                    "Python",
+                    "OpenCV",
+                    "Dlib",
+                    "face_recognition",
+                    "Arduino UNO",
+                    "Pan-Tilt Servo",
+                    "Haar Cascade",
+                    "EAR Calculation"
+                ]
+            },
+            {
+                "title": "Parking Management System",
+                "summary": "Smart Parking / .NET",
+                "description": "This Parking Management System is a WPF-based .NET Core desktop application designed to manage limited parking space efficiently. Vehicles are assigned dynamically to Lot A, B, or C based on availability and size. The system uses Entity Framework Core for data operations and follows the MVC architecture for clean code organization. Real-time parking status is displayed through a user-friendly Razor interface. The project includes SQL Server integration and supports unit testing via xUnit.",
+                "tech": [
+                    "C#",
+                    ".NET",
+                    "SQL Server"
+                ]
+            },
+            {
+                "title": "Backend API w JWT & RBAC",
+                "summary": "Backend API / JWT",
+                "description": "Modular and scalable backend API for an e-commerce platform, built with Node.js, Express, and MongoDB. Features include JWT-based authentication, role-based access control (RBAC), and real-time updates via Server-Sent Events (SSE). Designed with clean architecture principles, Docker support, and production-ready configurations.",
+                "tech": [
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "Mongoose",
+                    "JWT",
+                    "RBAC",
+                    "Docker",
+                    "SSE",
+                    "dotenv"
+                ]
+            },
+            {
+                "title": "Flight Simulation",
+                "summary": "Autonomous Simulation with MVVM, TCP/UDP Messaging & xUnit-Tested Logic",
+                "description": "A WPF-based flight simulation system built using the MVVM pattern and C#. It transmits structured data—like speed, altitude, attitude (pitch, roll, yaw), pressure, temperature, and GPS—every 0.02 seconds over TCP and UDP, using CRC8 for data integrity. PID control is used to simulate autonomous behavior, while real-time error codes are displayed in the UI. Each simulation is locally logged for later analysis. Communication logic is modular and tested with xUnit to ensure robustness.",
+                "tech": [
+                    "C#",
+                    "WPF",
+                    "MVVM",
+                    "Entity Framework Core",
+                    "TCP",
+                    "UDP",
+                    "CRC8 Hashing",
+                    "xUnit",
+                    "PID Control",
+                    "LINQ",
+                    "Async Programming"
+                ]
+            },
+            {
+                "title": "MERN Stack eCommerce w/ Kubernetes",
+                "summary": "Full-Stack eCommerce Platform with JWT Auth, Redux, and Microservices on K8s",
+                "description": "A production-ready eCommerce web app built with the MERN stack and Redux Toolkit for scalable state management. It includes payment methods, role-based access for users and admins, with features like product listings, cart, order tracking, and dashboards. The platform uses JWT authentication, MongoDB data seeding, and a responsive UI. Entirely containerized with Docker and orchestrated via Kubernetes (Minikube) to simulate real-world deployment.",
+                "tech": [
+                    "MongoDB",
+                    "Express.js",
+                    "React.js",
+                    "Node.js",
+                    "Redux Toolkit",
+                    "JWT",
+                    "Docker",
+                    "Kubernetes",
+                    "Minikube",
+                    "REST API",
+                    "Postman",
+                    "MongoDB Atlas"
+                ]
+            },
+            {
+                "title": "Kaggle Competition (TOP 50) – House Price Prediction",
+                "summary": "Accurate house price estimation using real estate data and ensemble machine learning models.",
+                "description": "A machine learning project developed for a Kaggle competition using real-world housing market data from Ames, Iowa. The model predicts house prices by analyzing over 70 features including lot area, year built, living space, and garage capacity. The dataset includes realistic and noisy data, requiring advanced preprocessing: missing value imputation, one-hot encoding, outlier removal, and logarithmic target transformation. A stacked ensemble combining Linear Regression, Random Forest, and Gradient Boosting was implemented through a pipeline to ensure consistent data handling. The final model achieved an R² score of 0.91 and ranked in the top 50 on the public leaderboard.",
+                "tech": [
+                    "Python",
+                    "Pandas",
+                    "Scikit-Learn",
+                    "Stacking Regressor",
+                    "Random Forest",
+                    "Linear Regression"
+                ]
+            },
+            {
+                "title": "Movie Recommendation System",
+                "summary": "Collaborative Filtering & Matrix Factorization with Real-World Ratings",
+                "description": "A machine learning-based movie recommendation system that suggests personalized content using collaborative filtering and matrix factorization. The system is trained on a real-world user-movie ratings dataset and predicts unseen movie ratings based on user similarity. Preprocessing includes normalization, feature engineering, and dimensionality reduction. Implemented in Python using TensorFlow and Scikit-learn, the model runs interactively through a Jupyter Notebook interface.",
+                "tech": [
+                    "Python",
+                    "Pandas",
+                    "NumPy",
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Jupyter Notebook",
+                    "Collaborative Filtering",
+                    "Matrix Factorization"
+                ]
+            }
+        ]
+    },
+    "skill": {
+        "title": "Essential Tools I use",
+        "description": "Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications."
+    }
+}
