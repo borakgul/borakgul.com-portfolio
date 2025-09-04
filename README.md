@@ -2,6 +2,7 @@
 
 Welcome to the **Bora Portfolio** repository! This project is a responsive and multilingual portfolio website designed to showcase my projects, experience, and technical skills.
 
+### Here is my personal website: **[www.borakgul.com](https://www.borakgul.com)**
 ---
 
 ## ✨ Features
@@ -75,13 +76,19 @@ Contributions are welcome! Please open an issue or submit a pull request.
 Here are a few previews of the portfolio website:
 
 ### 🖥️ Desktop Top View
-<img src="/public/For_github/start.png" alt="Desktop Screenshot" width="100%" />
+<a href="https://www.borakgul.com" target="_blank">
+  <img src="/public/For_github/start.png" alt="Desktop Screenshot" width="100%" />
+</a>
 
 ### 📱 Desktop Middle View
-<img src="/public/For_github/middle.png" alt="Mobile Screenshot" width="100%" />
+<a href="https://www.borakgul.com" target="_blank">
+  <img src="/public/For_github/middle.png" alt="Mobile Screenshot" width="100%" />
+</a>
 
 ### 🖥️ Desktop Footer and Contact View
-<img src="/public/For_github/Contact.png" alt="Desktop Screenshot" width="100%" />
+<a href="https://www.borakgul.com" target="_blank">
+  <img src="/public/For_github/Contact.png" alt="Desktop Screenshot" width="100%" />
+</a>
 
 ## License
 
