@@ -19,7 +19,6 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 const App = () => {
   const location = useLocation();
-  const isHomePage = location.pathname === '/';
 
   useGSAP(() => {
     const elements = gsap.utils.toArray('.reveal-up');
