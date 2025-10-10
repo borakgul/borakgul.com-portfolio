@@ -49,7 +49,7 @@ const Hero = () => {
             <ButtonPrimary
               label={t("hero.download_cv")}
               icon="download"
-              href="/CV/Resume_Bora.pdf"
+              href="/CV/Resume_Boraa.pdf"
               target="_blank"
             />
             <ButtonOutline
