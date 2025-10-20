@@ -6,18 +6,21 @@ import Contact from '../components/Contact';
 import { useTranslation } from 'react-i18next';
 
 const repoLinks = [
-  "https://github.com/borakgul/security-robot",
+  null,
+  "https://github.com/borakgul/JavaBootGalery",
   "https://github.com/borakgul/CarAnomalyDetection",
   "https://github.com/borakgul/OtoparkSystem",
   "https://github.com/borakgul/node-express-mongo",
   "https://github.com/borakgul/",
   "https://github.com/borakgul/ShopWP-MicroS",
   "https://github.com/borakgul/HousePriceKaggle",
-  "https://github.com/borakgul/ML-Recommended-System-Design-w-TensorFlow"
+  "https://github.com/borakgul/ML-Recommended-System-Design-w-TensorFlow",
+
 ];
 
 const imgSources = [
   "/images/projects/security-robot.png",
+  "/images/projects/JavaBootGallery.png",
   "/images/projects/anamoly-detection.png",
   "/images/projects/OtoparkingSystem.png",
   "/images/projects/backend-1.png",

@@ -5,11 +5,11 @@ const skillItem = [
   {
     imgSrc: "/images/python.svg",
     label: 'Python',
-    desc: 'Programming Language'
+    desc: 'ML/AI & Scripting'
   },
   {
-    imgSrc: '/images/mongodb.svg',
-    label: 'MongoDB',
+    imgSrc: '/images/java.svg',
+    label: 'Java Spring Boot',
     desc: 'Database'
   },
   {
@@ -20,7 +20,7 @@ const skillItem = [
   {
     imgSrc: '/images/javascript.svg',
     label: 'JavaScript',
-    desc: 'Interaction'
+    desc: 'Spring Boot & REST API'
   },
   {
     imgSrc: '/images/nodejs.svg',
@@ -34,13 +34,13 @@ const skillItem = [
   },
   {
     imgSrc: '/images/networking-connector-svgrepo-com.svg',
-    label: 'Networking',
-    desc: 'Cloud & Networking'
+    label: 'Cloud & Networking',
+    desc: 'AWS - GCP - HUAWEI'
   },
   {
     imgSrc: '/images/mssql.svg',
-    label: 'SQL',
-    desc: 'Design tool'
+    label: 'SQL & MongoDB',
+    desc: 'Relational Database'
   },
 ];
 

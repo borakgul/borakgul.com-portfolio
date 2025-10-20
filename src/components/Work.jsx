@@ -7,7 +7,7 @@ const imgPaths = [
   '/images/projects/OtoparkingSystem.png',
   '/images/projects/backend-1.png',
   '/images/projects/hause-predict.png',
-  '/images/projects/movie-recommend.png',
+  '/images/projects/JavaBootGallery.png',
   '/images/projects/security-robot.png'
 ];
 
@@ -16,8 +16,8 @@ const links = [
   'https://github.com/borakgul/OtoparkSystem',
   'https://github.com/borakgul/node-express-mongo',
   'https://github.com/borakgul/HousePriceKaggle',
-  'https://github.com/borakgul/ML-Recommended-System-Design-w-TensorFlow',
-  'https://github.com/borakgul/security-robot'
+  'https://github.com/borakgul/JavaBootGalery',
+  'https://borakgul.com/projects'
 ];
 
 const Work = () => {
